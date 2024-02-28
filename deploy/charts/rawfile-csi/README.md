@@ -21,7 +21,7 @@ Kubernetes: `>= 1.21`
 | controller.resources | object | `{}` | Overrides default resources for controller component |
 | controller.tolerations | list | `[{"effect":"NoSchedule","key":"node-role.kubernetes.io/master","operator":"Equal","value":"true"}]` | Tolerations for controller component |
 | global.image.pullPolicy | string | `"IfNotPresent"` | Default image pull policy for node and controller components |
-| global.image.repository | string | `"docker.io/openebs/rawfile-localpv"` | Default image repository for node and controller components |
+| global.image.repository | string | `"ghcr.io/centrinix/rawfile-localpv"` | Default image repository for node and controller components |
 | global.image.tag | string | `""` | Default image tag for node and controller components (uses AppVersion if empty) |
 | global.resources.limits.cpu | int | `1` | Default CPU Limit for node and controller components |
 | global.resources.limits.memory | string | `"100Mi"` | Default Memory Limit for node and controller components |
