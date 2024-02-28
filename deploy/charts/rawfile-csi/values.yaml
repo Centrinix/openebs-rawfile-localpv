@@ -4,9 +4,9 @@ provisionerName: "rawfile.csi.openebs.io"
 global:
   image:
     # -- Default image repository for node and controller components
-    repository: docker.io/openebs/rawfile-localpv
+    repository: ghcr.io/centrinix/rawfile-localpv
     # -- Default image tag for node and controller components (uses AppVersion if empty)
-    tag: ""
+    tag: "0.8.0.cnx"
     # -- Default image pull policy for node and controller components
     pullPolicy: IfNotPresent
   resources:
